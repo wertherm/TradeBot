@@ -2,7 +2,7 @@
 #----------
 #No Python o parse Json é realizado pela library 'import json'. Existem duas funções nesta biblioteca, json.dumps e json.loads, e no python existem dois tipos de estrutura para manipular (Handler) o json 'str' e 'dict'.
 #O json.dumps serve para 'descarregar' um objeto Json do tipo 'dict' (Dictionary) ou 'list' para ser consumido externamente à aplicação, convertendo-o para o tipo 'str' (String).
-#O json.loads serve para consumir um response json do tipo 'str' e convertê-lo em um 'dict', assim permitindo que a estrutura Json possa ser indexada como um array, dentro do python. Você poderá manipular o json usando por exemplo: print(jsonDict['campo')
+#O json.loads serve para consumir um response json do tipo 'str' e convertê-lo em um 'dict', assim permitindo que a estrutura Json possa ser indexada como um array, dentro do python. Você poderá manipular o json usando por exemplo: print(jsonDict['campo'])
 
 #--dataDict = bittrex.fetch_ticker('BTC/USDT') #Função que já retorna o response Json como um tipo Dictionary, assim não necessitando usar o json.loads()
 
